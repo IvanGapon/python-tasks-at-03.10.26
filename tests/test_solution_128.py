@@ -1,4 +1,5 @@
 import pytest
+
 from task_128_longest_consecutive_sequence.solution_128 import Solution
 
 

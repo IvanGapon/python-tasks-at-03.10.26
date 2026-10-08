@@ -9,9 +9,9 @@ class Solution:
             if ( num - 1) not in set_nums :
                 cur = num
                 cur_length = 1
-                while ( num + 1 in set_nums):
+                while ( cur + 1 in set_nums):
                     cur_length += 1
-                    num += 1
+                    cur += 1
                 max_length = max( max_length , cur_length)
 
         return max_length

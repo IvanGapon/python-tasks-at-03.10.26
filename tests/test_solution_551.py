@@ -1,4 +1,5 @@
 import pytest
+
 from task_551_student_attendance_record.solution_551 import Solution
 
 

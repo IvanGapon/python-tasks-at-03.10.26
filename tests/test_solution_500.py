@@ -1,4 +1,5 @@
 import pytest
+
 from task_500_keyboard_row.solution_500 import Solution
 
 
