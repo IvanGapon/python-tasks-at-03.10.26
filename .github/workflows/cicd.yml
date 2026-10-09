@@ -32,3 +32,24 @@ jobs:
     - name: Run Pytest
       run: |
         python -m pytest
+
+deploy:
+    name: Deploy Release Artifact
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Upload Artifacts to GitHub
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-hse-solutions
+          path: |
+            task_128_longest_consecutive_sequence/
+            task_500_keyboard_row/
+            task_551_student_attendance_record/
+            tests/
+            requirements.txt
+            README.md
