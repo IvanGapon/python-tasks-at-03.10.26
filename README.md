@@ -16,3 +16,5 @@
 * **CI/CD Конфигурация:** [`.github/workflows/cicd.yml`](https://github.com/IvanGapon/python-tasks-at-03.10.26/blob/main/.github/workflows/cicd.yml)
 * **Автотесты:** [`tests/`](https://github.com/IvanGapon/python-tasks-at-03.10.26/tree/main/tests)
 *  **Зависимости:** [`requirements.txt`](https://github.com/IvanGapon/python-tasks-at-03.10.26/blob/main/requirements.txt)
+
+**Посмотреть выгрузы можно** [`здесь`](https://github.com/IvanGapon/python-tasks-at-03.10.26/actions/workflows/cicd.yml)
